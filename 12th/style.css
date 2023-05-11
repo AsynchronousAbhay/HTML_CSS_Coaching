@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    /* padding: 5% 10%; */
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.container {
+    overflow: hidden;
+    background-color: white;
+    padding: 5% 10%;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.354);
+}
+
+.title {
+    margin-top: 5%;
+    font: 100 4vmax "Voyage";
+}
+
+hr {
+    margin: 2% 0;
+    height: 0.2vmax;
+    width: 5vmax;
+    background-color: rgb(218, 215, 215);
+    border: none;
+}
+
+p {
+    margin-bottom: 2%;
+    font: 400 1.4vmax "Roboto";
+    color: rgb(110, 109, 109);
+}
+
+img {
+    width: 500px;
+}
+
+.image2 {
+    position: absolute;
+    left: 50%;
+}

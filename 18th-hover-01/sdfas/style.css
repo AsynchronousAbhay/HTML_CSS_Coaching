@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .box {
+    background-color: red;
+} */
+
+.line {
+    transform-origin: left;
+    width: 2.5vmax;
+    height: 0.4vmax;
+    background-color: black;
+    margin-bottom: 0.4vmax;
+    border-radius: 5px;
+    transition: 0.25s all ease-in-out;
+}
+
+.box:hover .line1 {
+    transform: rotate(45deg);
+}
+
+.box:hover .line2 {
+    width: 0;
+}
+
+.box:hover .line3 {
+    transform: rotate(-45deg);
+}
