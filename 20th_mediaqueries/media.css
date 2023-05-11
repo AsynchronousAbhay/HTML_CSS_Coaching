@@ -1,0 +1,140 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+    nav {
+        justify-content: center;
+    }
+    nav > h1 {
+        font-size: 8vmax;
+        font-weight: 500;
+    }
+    nav > ul {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left {
+        padding: 10vmax 0;
+        width: 100%;
+    }
+
+    .left > h1 {
+        font-size: 6vmax;
+    }
+
+    .left > p {
+        font-size: 2.5vmax;
+        margin: 2vmax 0;
+    }
+    .left > button {
+        font-size: 2vmax;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right > img {
+        height: 80vh;
+    }
+
+    footer {
+        font-size: 2vmax;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    nav {
+        justify-content: center;
+    }
+    nav > h1 {
+        font-size: 8vmax;
+        font-weight: 500;
+    }
+    nav > ul {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left {
+        padding: 10vmax 0;
+        width: 100%;
+    }
+
+    .left > h1 {
+        font-size: 6vmax;
+    }
+
+    .left > p {
+        font-size: 2.5vmax;
+        margin: 2vmax 0;
+    }
+    .left > button {
+        font-size: 2vmax;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right > img {
+        height: 50vh;
+    }
+
+    footer {
+        font-size: 2vmax;
+    }
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 15vmax;
+    height: 15vmax;
+    /* transform: translate(x, y); */
+    /* transform: translateX(x);
+    transform: translateY(y); */
+}
+
+.red {
+    background-color: rgb(230, 90, 90);
+    /* transform: translate(-50%, -50%); */
+    /* transform: rotate(50deg) translate(100px,0); */
+    /* transform: rotate(-50deg); */
+    /* transform: scale(2); */
+    /* transform: skew(10deg, 30deg); */
+    transform: rotate(0deg);
+    /* transition: time delay timingfunction forwhichproperty; */
+    /* transition: 3s cubic-bezier(0.04, 1.5, 0.76, -0.69) all; */
+    transition: 3s linear background-color, 1s linear transform;
+}
+
+.red:hover {
+    transform: rotate(45deg);
+    background-color: green;
+}
+
+.green {
+    background-color: rgb(54, 179, 54);
+}

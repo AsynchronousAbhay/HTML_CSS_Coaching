@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+nav {
+    width: 100%;
+    /* height: 15vh; */
+    background-color: rgb(52, 51, 51);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmax 2vmax;
+}
+
+nav > h1 {
+    font: 100 4vmax "shaloems";
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li {
+    padding: 0 1vmax;
+    font: 400 1vmax "montserrat";
+}
+
+section {
+    background-color: rgb(52, 51, 51);
+    width: 100%;
+    /* height: 75vh; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.left > h1 {
+    font: 900 4vmax "montserrat";
+    letter-spacing: 2px;
+}
+
+.left > p {
+    font: 400 1vmax "montserrat";
+    margin: 1vmax 0;
+}
+
+.left > button {
+    padding: 1vmax 3vmax;
+    background-color: white;
+    color: #000;
+    border: none;
+    font: 400 1vmax "montserrat";
+    border-radius: 0.3vmax;
+}
+
+.right {
+    align-items: center;
+}
+
+.right > img {
+    height: 80vh;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font: 400 1vmax "montserrat";
+}
